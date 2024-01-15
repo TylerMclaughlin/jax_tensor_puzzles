@@ -156,7 +156,7 @@ def vstack(a,b):
 ```
 
 ## Puzzle 10:  Implement `jnp.roll`
-Circularly permute a vector (to the right) using 
+Circularly permute a vector (to the right) by an integer amount `i`.
 
 #### Solution:
 
