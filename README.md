@@ -4,7 +4,7 @@ Solving Sasha Rush's [Tensor Puzzles](https://github.com/srush/Tensor-Puzzles) w
 
 [JAX](https://jax.readthedocs.io/en/latest/index.html) is Google's Python array library for GPU computing and autodifferentiation.  JAX NumPy (`jax.numpy`) is a drop-in replacement for NumPy.  The major reason to use `jnp` is that it runs matrix computations on GPUs or TPUs automatically, *and* supports the GPU on Apple Silicon with [JAX Metal](https://developer.apple.com/metal/jax/).  A nice bonus is that it can compute gradients on almost everything, should you need to do this for machine learning or physics projects.
 
-Can Sasha's PyTorch Tensor Puzzles be solved in JAX NumPy?  Are there any differences?  I'm guessing not, but let's see if that's true.
+Can Sasha's PyTorch Tensor Puzzles be solved in JAX NumPy?  Are there any major differences?  I'm guessing not, but let's see if that's true.
 
 ## Puzzle Intro
 
